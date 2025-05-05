@@ -17,7 +17,7 @@ header, section, aside, article, footer, figure {
 header {
     background-color: white;
     color:darkcyan
-    padding: 25px
+    padding:25px
 }
 
 header h1 {
@@ -68,21 +68,51 @@ footer p {
 }
 
 .container {
-    width:960 px;
+    width:960px;
     background-color:rgba(255, 255, 255, 0.7);
     margin:auto;
 }
 
 .content {
-    padding: 10px;
-    width: 630px;
-    float: left;
+    padding:10px;
+    width:630px;
+    float:left;
 }
 
 .sidebar {
-    float: left;
-    max-width: 300;
+    float:right;
+    max-width:300px;
     background-color:rgba(255, 255, 255, 0.4);
-    color: darkcyan;
-    padding: 4px;
+    color:darkcyan;
+    padding:4px;
+}
+
+.sidebar a {
+    color:darkcyan
+}
+
+
+figure {
+    margin:0px
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+.image-right {
+    float: right;
+}
+
+.image-left {
+    float: left;
+    margin-right:7px
+}
+
+h1,h2,h3 {
+    font-family:"Amatic SC", sans-serif;
+}
+
+p, li {
+    font-family:'Times New Roman', Times, serif
 }
