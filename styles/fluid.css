@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.hero {
+    padding:20px;
+}
+
+.hero section img {
+    width:100%;
+    height:auto;
+}
+
+.gertie {
+    background-color: #5b0a0a;
+    color:#f0f0f0
+}
+
+.gertie section {
+    box-sizing: border-box;
+}
+
+.gertie .em {
+    padding: 2em;
+}
+
+.gertie .rem {
+    padding: 3rem;
+}
+
+.gertie .percentage p {
+   width: 75%;
+}
+
+.gertie .vw {
+    padding: 2vw;
+}
+
+a {
+    color: #bb3f3f;
+    text-decoration: none;
+}
